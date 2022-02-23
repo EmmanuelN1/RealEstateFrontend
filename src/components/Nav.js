@@ -2,7 +2,7 @@ import {useState} from "react"
 import Image from "next/image";
 import Logo from "../assets/Logo.png";
 import {Transition} from "@headlessui/react" //installed from a library
-import Link from 'next/link' //installed from a library
+import Link from 'next/link'
 
 
 
@@ -40,12 +40,14 @@ function Nav() {
                                         <a className="cursor-pointer text-gray-500 font-semibold px-3 py-2 text-md hover:text-white hover:bg-red-500"> Services </a> 
                                     </Link>  
 
-                                    <Link  href="/blog" > 
-                                       <a className="cursor-pointer text-gray-500 font-semibold px-3 py-2 text-md hover:text-white hover:bg-red-500" > Blog </a> 
+                                    <Link  href="/locations" > 
+                                       <a className="cursor-pointer text-gray-500 font-semibold px-3 py-2 text-md hover:text-white hover:bg-red-500" > Locations </a> 
                                     </Link>
 
                                     <Link href="/contact"> 
-                                       <a className="cursor-pointer text-white bg-red-500 font-semibold px-3 py-2 text-md  hover:bg-white hover:text-gray-500" >Contact</a>
+                                       <a className="cursor-pointer text-white bg-red-500 
+                                       rounded-md
+                                       font-semibold px-3 py-2 text-md  hover:bg-white hover:text-gray-500" >Contact</a>
                                     </Link>
                               </div>
                           </div>
@@ -105,9 +107,9 @@ function Nav() {
                                     </Link>
 
 
-                                    <Link href="/blog" >
+                                    <Link href="/locations" >
                                        <a 
-                                        className="cursor-pointer hover:bg-red-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</a>  
+                                        className="cursor-pointer hover:bg-red-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">Locations</a>  
                                     </Link>
 
                                     <Link href="/contact">
