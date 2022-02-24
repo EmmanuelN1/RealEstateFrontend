@@ -3,7 +3,7 @@ import Image from "next/image";
 import Banner from "../components/Banner";
 import Nav from "../components/Nav"
 import Recent from "../components/Recent";
-import Advert from "../components/advert";
+import Advert from "../components/Advert";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 

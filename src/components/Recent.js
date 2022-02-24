@@ -38,7 +38,7 @@ function Recent() {
                     </div>
 
                     <div className="pt-4 pb-2 mb-10">
-                      <button className="inline-block bg-red-500 rounded-full px-4 py-1  font-bold text-white mr-2 mb-2" >View Property</button>
+                      <button className="inline-block bg-red-500 rounded-full px-4 py-1  font-bold text-white mr-2 mb-2 focus:outline-none" >View Property</button>
                     </div>
             </div>
 
@@ -66,7 +66,7 @@ function Recent() {
                     </div>
 
                     <div className="pt-4 pb-2 mb-10">
-                      <button className="inline-block bg-red-500 rounded-full px-4 py-1  font-bold text-white mr-2 mb-2" >View Property</button>
+                      <button className="inline-block bg-red-500 rounded-full px-4 py-1  font-bold text-white mr-2 mb-2 focus:outline-none" >View Property</button>
                     </div>
             </div>
 
@@ -89,12 +89,12 @@ function Recent() {
 
                     <div className="pt-4 pb-2">
                         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"> 4 Beds</span>
-                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"> 4 Baths</span>
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 "> 4 Baths</span>
 
                     </div>
 
                     <div className="pt-4 pb-2 mb-3">
-                      <button className="inline-block bg-red-500 rounded-full px-4 py-1  font-bold text-white mr-2 mb-2" >View Property</button>
+                      <button className="inline-block bg-red-500 rounded-full px-4 py-1  font-bold text-white mr-2 mb-2 focus:outline-none" >View Property</button>
                     </div>
             </div>
 
