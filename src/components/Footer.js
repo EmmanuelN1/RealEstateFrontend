@@ -10,9 +10,9 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Footer() {
   return (
     <div className="pt-40 px-4 divide-y">
-            <div className="container flex flex-col justify-between mx-auto space-y-8 border-t-2 border-gray-200 pt-7 ">
-                    <div className="flex justify-center">
-                        <div className=" flex w-12 h-12">
+            <div className="container flex flex-col justify-between mx-auto space-y-8   pt-7 ">
+                    <div className="flex justify-center ">
+                        <div className="flex w-12 h-12">
                           <Image 
                                   src={Logo}
                                   width={150}
@@ -25,11 +25,11 @@ function Footer() {
                             Premium Properties
                         </span>
                     </div>
+              
 
 
 
-
-                  <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-x-3 gap-y-8 text-sm sm:ml-10 " >
+                  <div className="grid grid-cols-2 gap-x-3 gap-y-8 text-sm sm:grid-cols-4 mb-3" >
                       <div className="space-y-3">
                           <h3 className="text-red-500 uppercase tracking-wide">Product</h3>
                             <ul className="space-y-1">
@@ -71,7 +71,7 @@ function Footer() {
 
                       <div className="space-y-3">
                           <h3 className="text-red-500 uppercase tracking-wide">Developer</h3>
-                            <ul className="space-x-3">
+                            <ul className="space-y-1">
                               <li>
                                  <a href="#">Public API</a> 
                                   
