@@ -10,7 +10,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Footer() {
   return (
     <div className="pt-40 px-4 divide-y">
-            <div className="container flex flex-col justify-between mx-auto space-y-8 ">
+            <div className="container flex flex-col justify-between mx-auto space-y-8 border-t-2 border-gray-200 pt-7 ">
                     <div className="flex justify-center">
                         <div className=" flex w-12 h-12">
                           <Image 
@@ -114,8 +114,8 @@ function Footer() {
                       </div>
 
                   </div>
-                  <div className="text-center text-red-500  text-sm py-6 ">
-                              <p>© 1968 Company Co. All rights reserved</p>
+                  <div className="text-center text-red-300 border-t-2 border-gray-200  text-sm py-6 ">
+                              <p>© 2022 Pretium Properties. All rights reserved</p>
                   </div>
 
             </div>

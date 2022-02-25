@@ -9,7 +9,7 @@ import cali6 from "../assets/cali6.jpg";
 import cali7 from "../assets/cali7.jpg";
 import cali8 from "../assets/cali8.jpg";
 import cali9 from "../assets/cali9.jpg";
-
+import Footer from "../components/Footer";
 
 
 
@@ -122,6 +122,7 @@ function locations() {
 
         
     </div>
+    <Footer/>
     </div>
   )
 }
