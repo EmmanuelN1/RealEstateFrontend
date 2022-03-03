@@ -36,8 +36,8 @@ function Nav() {
                                          <a className="cursor-pointer text-gray-500 font-semibold px-3 py-2 text-md hover:text-white hover:bg-red-500">About</a>
                                     </Link>
 
-                                    <Link  href="/services" > 
-                                        <a className="cursor-pointer text-gray-500 font-semibold px-3 py-2 text-md hover:text-white hover:bg-red-500"> Services </a> 
+                                    <Link  href="/properties" > 
+                                        <a className="cursor-pointer text-gray-500 font-semibold px-3 py-2 text-md hover:text-white hover:bg-red-500"> Properties </a> 
                                     </Link>  
 
                                     <Link  href="/locations" > 
@@ -102,8 +102,8 @@ function Nav() {
                                     </Link>
 
 
-                                    <Link href="/services">
-                                        <a className="cursor-pointer hover:bg-red-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
+                                    <Link href="/properties">
+                                        <a className="cursor-pointer hover:bg-red-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">Properties</a>
                                     </Link>
 
 

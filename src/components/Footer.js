@@ -39,7 +39,7 @@ function Footer() {
                               </li>
                             
                               <li>
-                                    <a href="/services"> Services </a> 
+                                    <a href="/properties"> Properties </a> 
                                   
                               </li>
 

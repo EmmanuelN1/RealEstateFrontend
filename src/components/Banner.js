@@ -17,12 +17,12 @@ function Banner() {
 
             <div className=" lg:flex xl:flex md:flex   ">
                 <div>
-                    <Link href="">
+                    <Link href="/properties">
                         <a className="flex justify-center rounded-md bg-red-500 text-white px-8 py-3 mt-5 "> View Properties </a>
                     </Link>
                 </div>
                 <div>
-                    <Link href="">
+                    <Link href="/locations">
                         <a className="flex lg:flex-0 justify-center rounded-md bg-red-100 text-red-500 py-3 px-8 xl:m-5 lg:m-5 md:m-5 mt-3 "> Explore Locations </a>
                     </Link>
                 </div>
