@@ -14,7 +14,7 @@ function properties() {
   return (
     <div>
          <Nav/>
-         <div className=" pt-5 px-5 lg:max-w-screen-lg mx-auto justify-center">
+         <div className=" pt-5 px-5  lg:max-w-screen-lg mx-auto justify-center">
         <h2 className="text-2xl font-bold text-red-500 mb-1 md:mb-1 lg:mb-1 xl:mb-1 text-center ">PROPERTIES </h2>
 
         {/* cards section  */}
@@ -116,10 +116,10 @@ function properties() {
 
            
         </div>
-
+        <Footer/>
         
     </div>
-    <Footer/>
+   
     </div>
   )
 }

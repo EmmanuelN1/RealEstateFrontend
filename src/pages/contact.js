@@ -69,9 +69,8 @@ function contact() {
           </div>
 
                 
-            
-        </div>
         <Footer/>
+        </div>
     </div>
   )
 }

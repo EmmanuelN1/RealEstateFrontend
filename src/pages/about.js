@@ -17,9 +17,8 @@ function about() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, porro odit est excepturi voluptatum quidem inventore modi, natus veniam rem tempore. Nostrum voluptates at reprehenderit provident! Excepturi minima provident consequatur?
                   
              </p>
+      <Footer/>
      </div>
-
-     <Footer/>
   </div>
   )
 }

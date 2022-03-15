@@ -9,7 +9,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="pt-40 px-4 divide-y">
+    <div className="pt-40 px-4 divide-y ">
             <div className="container flex flex-col justify-between mx-auto space-y-8   pt-7 ">
                     <div className="flex justify-center ">
                         <div className="flex w-12 h-12">

@@ -121,9 +121,9 @@ function locations() {
            
         </div>
 
-        
+        <Footer/>
     </div>
-    <Footer/>
+
     </div>
   )
 }
